@@ -2,13 +2,13 @@
   "users": [
     {
       "id": 1,
-      "name": "Max Power",
-      "age": 99
+      "name": "Ryu",
+      "age": 29
     },
     {
-      "name": "Megaman",
-      "age": 22,
-      "id": 2
+      "id": 2,
+      "name": "Bison",
+      "age": 44
     }
   ]
 }
