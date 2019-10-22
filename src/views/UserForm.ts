@@ -1,5 +1,6 @@
+import { User } from "../models/User";
 export class UserForm {
-  constructor(public parent: Element) {}
+  constructor(public parent: Element, public model: User) {}
 
   onButtonClick(): void {
     console.log("hi");
@@ -20,6 +21,8 @@ export class UserForm {
     return `
      <div>
       <h1>User Form</h1>
+      <div>User Name: ${this.model.get("name")}</div>
+      <div>User Age: ${this.model.get("age")}</div>
       <input/>
       <button>Click Me</button>
      </div>
